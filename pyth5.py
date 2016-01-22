@@ -1,5 +1,6 @@
 # Import system and use strings.
-import sys,string
+import sys
+import string
 # It is running.
 running = True
 # When it is running, do this.
@@ -14,14 +15,14 @@ while running:
         first = int(input("Enter Base :"))
         second = int(input("Enter Height :"))
         result = (first**2 + second**2)**(0.5)
-        print(first ,'+' ,second ,'=' , result)
+        print(first, '+', second, '=', result)
 # The equation for finding Base or Height.
     elif cmd == 2:
         print("Find Base or Height")
         first = int(input("Enter Hypotenuse :"))
         second = int(input("Enter the other Base or Height you know:"))
         result = (first**2 - second**2)**(0.5)
-        print(first ,'-' ,second ,'=' , result)
+        print(first, '-', second, '=', result)
 # Quit.
     elif cmd == 3:
         print 'Good Bye:)'
